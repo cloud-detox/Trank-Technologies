@@ -3,12 +3,21 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test name="Default test(failed)">
     <classes>
-      <class name="Selenium.GetafreequoteTest">
+      <class name="Verticals.CustomApp">
         <methods>
-          <include name="submitbutton"/>
-          <include name="setup"/>
+          <include name="visibiilityRealState"/>
+          <include name="visibilityCustomApp"/>
+          <include name="visibiilityELearning"/>
+          <include name="visibilityVerticals"/>
+          <include name="visibiilityTravel"/>
+          <include name="visibiilityDatingAppDevelopment"/>
+          <include name="visibiilityHRMDevelopment"/>
+          <include name="visibiilityERPAppDevelopment"/>
+          <include name="visibiilityCRMDevelopment"/>
+          <include name="visibiilityDesktopAppDevelopment"/>
+          <include name="navigate_functionality"/>
         </methods>
-      </class> <!-- Selenium.GetafreequoteTest -->
+      </class> <!-- Verticals.CustomApp -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

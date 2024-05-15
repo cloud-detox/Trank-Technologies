@@ -1,53 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-05-15T05:24:52Z" name="Default suite" finished-at="2024-05-15T05:26:02Z" duration-ms="70088">
+  <suite started-at="2024-05-15T06:28:27Z" name="Default suite" finished-at="2024-05-15T06:29:28Z" duration-ms="61028">
     <groups>
     </groups>
-    <test started-at="2024-05-15T05:24:52Z" name="Default test" finished-at="2024-05-15T05:26:02Z" duration-ms="70088">
-      <class name="Selenium.GetafreequoteTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:Selenium.GetafreequoteTest@53499d85]" started-at="2024-05-15T10:54:52Z" name="setup" finished-at="2024-05-15T10:55:18Z" duration-ms="26298" status="PASS">
+    <test started-at="2024-05-15T06:28:27Z" name="Default test" finished-at="2024-05-15T06:29:28Z" duration-ms="61028">
+      <class name="Verticals.CustomApp">
+        <test-method is-config="true" signature="navigate_functionality()[pri:0, instance:Verticals.CustomApp@30bcf3c1]" started-at="2024-05-15T11:58:27Z" name="navigate_functionality" finished-at="2024-05-15T11:58:35Z" duration-ms="8089" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="getafreequotes()[pri:1, instance:Selenium.GetafreequoteTest@53499d85]" started-at="2024-05-15T10:55:19Z" name="getafreequotes" finished-at="2024-05-15T10:55:23Z" duration-ms="4092" status="PASS">
+        </test-method> <!-- navigate_functionality -->
+        <test-method signature="visibilityVerticals()[pri:1, instance:Verticals.CustomApp@30bcf3c1]" started-at="2024-05-15T11:58:35Z" name="visibilityVerticals" finished-at="2024-05-15T11:58:38Z" duration-ms="2279" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getafreequotes -->
-        <test-method signature="name()[pri:2, instance:Selenium.GetafreequoteTest@53499d85]" started-at="2024-05-15T10:55:23Z" name="name" finished-at="2024-05-15T10:55:27Z" duration-ms="4220" status="PASS">
+        </test-method> <!-- visibilityVerticals -->
+        <test-method signature="visibilityCustomApp()[pri:2, instance:Verticals.CustomApp@30bcf3c1]" started-at="2024-05-15T11:58:38Z" name="visibilityCustomApp" finished-at="2024-05-15T11:58:40Z" duration-ms="2206" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- name -->
-        <test-method signature="mailfield()[pri:3, instance:Selenium.GetafreequoteTest@53499d85]" started-at="2024-05-15T10:55:27Z" name="mailfield" finished-at="2024-05-15T10:55:30Z" duration-ms="3516" status="PASS">
+        </test-method> <!-- visibilityCustomApp -->
+        <test-method signature="visibiilityDesktopAppDevelopment()[pri:3, instance:Verticals.CustomApp@30bcf3c1]" started-at="2024-05-15T11:58:40Z" name="visibiilityDesktopAppDevelopment" finished-at="2024-05-15T11:58:46Z" duration-ms="6735" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- mailfield -->
-        <test-method signature="companyfield()[pri:4, instance:Selenium.GetafreequoteTest@53499d85]" started-at="2024-05-15T10:55:30Z" name="companyfield" finished-at="2024-05-15T10:55:35Z" duration-ms="4135" status="PASS">
+        </test-method> <!-- visibiilityDesktopAppDevelopment -->
+        <test-method signature="visibiilityCRMDevelopment()[pri:4, instance:Verticals.CustomApp@30bcf3c1]" started-at="2024-05-15T11:58:46Z" name="visibiilityCRMDevelopment" finished-at="2024-05-15T11:58:52Z" duration-ms="5544" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- companyfield -->
-        <test-method signature="servicedropdown()[pri:5, instance:Selenium.GetafreequoteTest@53499d85]" started-at="2024-05-15T10:55:35Z" name="servicedropdown" finished-at="2024-05-15T10:55:39Z" duration-ms="4510" status="PASS">
+        </test-method> <!-- visibiilityCRMDevelopment -->
+        <test-method signature="visibiilityHRMDevelopment()[pri:5, instance:Verticals.CustomApp@30bcf3c1]" started-at="2024-05-15T11:58:52Z" name="visibiilityHRMDevelopment" finished-at="2024-05-15T11:58:57Z" duration-ms="5329" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- servicedropdown -->
-        <test-method signature="phonefield()[pri:6, instance:Selenium.GetafreequoteTest@53499d85]" started-at="2024-05-15T10:55:39Z" name="phonefield" finished-at="2024-05-15T10:55:42Z" duration-ms="3326" status="PASS">
+        </test-method> <!-- visibiilityHRMDevelopment -->
+        <test-method signature="visibiilityERPAppDevelopment()[pri:6, instance:Verticals.CustomApp@30bcf3c1]" started-at="2024-05-15T11:58:57Z" name="visibiilityERPAppDevelopment" finished-at="2024-05-15T11:59:03Z" duration-ms="6130" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- phonefield -->
-        <test-method signature="messagetextarea()[pri:7, instance:Selenium.GetafreequoteTest@53499d85]" started-at="2024-05-15T10:55:42Z" name="messagetextarea" finished-at="2024-05-15T10:55:46Z" duration-ms="3862" status="PASS">
+        </test-method> <!-- visibiilityERPAppDevelopment -->
+        <test-method signature="visibiilityTravel()[pri:7, instance:Verticals.CustomApp@30bcf3c1]" started-at="2024-05-15T11:59:03Z" name="visibiilityTravel" finished-at="2024-05-15T11:59:10Z" duration-ms="6657" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- messagetextarea -->
-        <test-method signature="robotcheckbox()[pri:8, instance:Selenium.GetafreequoteTest@53499d85]" started-at="2024-05-15T10:55:46Z" name="robotcheckbox" finished-at="2024-05-15T10:55:51Z" duration-ms="5013" status="PASS">
+        </test-method> <!-- visibiilityTravel -->
+        <test-method signature="visibiilityELearning()[pri:8, instance:Verticals.CustomApp@30bcf3c1]" started-at="2024-05-15T11:59:10Z" name="visibiilityELearning" finished-at="2024-05-15T11:59:16Z" duration-ms="5773" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- robotcheckbox -->
-        <test-method signature="submitbutton()[pri:9, instance:Selenium.GetafreequoteTest@53499d85]" started-at="2024-05-15T10:55:51Z" name="submitbutton" finished-at="2024-05-15T10:56:02Z" duration-ms="11000" status="PASS">
+        </test-method> <!-- visibiilityELearning -->
+        <test-method signature="visibiilityDatingAppDevelopment()[pri:9, instance:Verticals.CustomApp@30bcf3c1]" started-at="2024-05-15T11:59:16Z" name="visibiilityDatingAppDevelopment" finished-at="2024-05-15T11:59:22Z" duration-ms="5768" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- submitbutton -->
-      </class> <!-- Selenium.GetafreequoteTest -->
+        </test-method> <!-- visibiilityDatingAppDevelopment -->
+        <test-method signature="visibiilityRealState()[pri:10, instance:Verticals.CustomApp@30bcf3c1]" started-at="2024-05-15T11:59:22Z" name="visibiilityRealState" finished-at="2024-05-15T11:59:28Z" duration-ms="5976" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- visibiilityRealState -->
+        <test-method is-config="true" signature="quitFunctionality()[pri:0, instance:Verticals.CustomApp@30bcf3c1]" started-at="2024-05-15T11:59:28Z" name="quitFunctionality" finished-at="2024-05-15T11:59:28Z" duration-ms="469" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitFunctionality -->
+      </class> <!-- Verticals.CustomApp -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
