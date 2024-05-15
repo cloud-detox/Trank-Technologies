@@ -49,7 +49,7 @@ public class GetafreequoteTest {
 	
 	@Test(priority=3)
 	void mailfield() throws InterruptedException {
-		Thread.sleep(3000);
+		Thread.sleep(2000);
 		WebElement Mail = driver.findElement(By.xpath("//input[@placeholder='Your Mail']"));
 		boolean c = Mail.isDisplayed();
 		if (c=true) {
@@ -62,7 +62,7 @@ public class GetafreequoteTest {
 	
 	@Test(priority=4)
 	void companyfield() throws InterruptedException {
-		Thread.sleep(3000);
+		Thread.sleep(2000);
 		WebElement company = driver.findElement(By.xpath("//input[@placeholder='Your Company']"));
 		boolean d = company.isDisplayed();
 		if (d=true) {
