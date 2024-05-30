@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-15T23:03:08 IST" name="Default suite" finished-at="2024-05-15T23:03:21 IST" duration-ms="12797">
+    <groups>
+    </groups>
+    <test started-at="2024-05-15T23:03:08 IST" name="Default test" finished-at="2024-05-15T23:03:21 IST" duration-ms="12797">
+      <class name="Technologies_Module.ArtificialIntelligence">
+        <test-method is-config="true" signature="navigateTo()[pri:0, instance:Technologies_Module.ArtificialIntelligence@3e2822]" started-at="2024-05-15T23:03:08 IST" name="navigateTo" finished-at="2024-05-15T23:03:14 IST" duration-ms="5902" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateTo -->
+        <test-method signature="AI()[pri:1, instance:Technologies_Module.ArtificialIntelligence@3e2822]" started-at="2024-05-15T23:03:14 IST" name="AI" finished-at="2024-05-15T23:03:21 IST" duration-ms="6196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AI -->
+        <test-method is-config="true" signature="exit()[pri:0, instance:Technologies_Module.ArtificialIntelligence@3e2822]" started-at="2024-05-15T23:03:21 IST" name="exit" finished-at="2024-05-15T23:03:21 IST" duration-ms="494" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exit -->
+      </class> <!-- Technologies_Module.ArtificialIntelligence -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
