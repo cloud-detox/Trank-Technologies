@@ -3,13 +3,19 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Verticals.Verticals_Test">
+      <class name="TrankTechnologies.homepageno1">
         <methods>
-          <include name="CustomApp_Module1"/>
+          <include name="WebIcons"/>
+          <include name="APPDEV"/>
           <include name="navigate"/>
+          <include name="whatsapp"/>
+          <include name="connect"/>
+          <include name="Research"/>
+          <include name="whatweoffer"/>
           <include name="close"/>
+          <include name="chatBox"/>
         </methods>
-      </class> <!-- Verticals.Verticals_Test -->
+      </class> <!-- TrankTechnologies.homepageno1 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
