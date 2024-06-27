@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Verticals.Verticals_Test">
+      <class name="vertical_retail.retailecommerceClass1Test">
         <methods>
-          <include name="CustomApp_Module1"/>
           <include name="navigate"/>
           <include name="close"/>
+          <include name="ecomdev"/>
         </methods>
-      </class> <!-- Verticals.Verticals_Test -->
+      </class> <!-- vertical_retail.retailecommerceClass1Test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

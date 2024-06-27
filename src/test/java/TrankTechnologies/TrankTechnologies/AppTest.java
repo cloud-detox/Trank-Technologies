@@ -1,4 +1,4 @@
-package TrankTechnologies.TrankTechnologies;
+package tranktechnologies.tranktechnologies;
 
 import static org.junit.Assert.assertTrue;
 

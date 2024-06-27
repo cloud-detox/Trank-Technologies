@@ -1,4 +1,4 @@
-package TrankTechnologies.TrankTechnologies;
+package tranktechnologies.tranktechnologies;
 
 /**
  * Hello world!
