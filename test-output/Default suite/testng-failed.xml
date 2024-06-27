@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Verticals.Verticals_Test">
+      <class name="Verticals_healthcare.HealthcareTest">
         <methods>
-          <include name="CustomApp_Module1"/>
           <include name="navigate"/>
+          <include name="verticalback"/>
           <include name="close"/>
         </methods>
-      </class> <!-- Verticals.Verticals_Test -->
+      </class> <!-- Verticals_healthcare.HealthcareTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
