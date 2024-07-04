@@ -3,13 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Verticals.Verticals_Test">
+      <class name="Selenium.Trank_Technologies.verticalsAndPortfolioTest">
         <methods>
-          <include name="CustomApp_Module1"/>
           <include name="navigate"/>
-          <include name="close"/>
+          <include name="portfolio"/>
         </methods>
-      </class> <!-- Verticals.Verticals_Test -->
+      </class> <!-- Selenium.Trank_Technologies.verticalsAndPortfolioTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

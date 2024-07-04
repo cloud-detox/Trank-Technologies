@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>8/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon May 20 13:52:19 IST 2024</td>
+<td>Started on:</td><td>Thu Jul 04 17:27:31 IST 2024</td>
 </tr>
-<tr><td>Total time:</td><td>34 seconds (34848 ms)</td>
+<tr><td>Total time:</td><td>63 seconds (63588 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,19 +76,20 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='Verticals.Verticals_Test.CustomApp_Module1()'><b>CustomApp_Module1</b><br>Test class: Verticals.Verticals_Test</td>
-<td><div><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable
-  (Session info: chrome=124.0.6367.208)
+<td title='Selenium.Trank_Technologies.verticalsAndPortfolioTest.portfolio()'><b>portfolio</b><br>Test class: Selenium.Trank_Technologies.verticalsAndPortfolioTest</td>
+<td><div><pre>org.openqa.selenium.InvalidSelectorException: invalid selector
+from javascript error: {&quot;status&quot;:32,&quot;value&quot;:&quot;Unable to locate an element with the xpath expression //div[normalize-space()=&apos;Development&apos;]&apos;] because of the following error:\nSyntaxError: Failed to execute &apos;evaluate&apos; on &apos;Document&apos;: The string &apos;//div[normalize-space()=&apos;Development&apos;]&apos;]&apos; is not a valid XPath expression.&quot;}
+  (Session info: chrome=126.0.6478.127)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
 Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.2&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.1.1&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [960d94362ac450e5ffc88e8d341e68d5, clickElement {id=f.B190C19E72E0123EE60773EF87901917.d.36280E21461D5C102679BBB03A621B77.e.104}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.208, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49478}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49478/devtoo..., se:cdpVersion: 124.0.6367.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (960d94362ac450e5ffc88e8d341e68d5)] -&gt; xpath: (//a[@href=&quot;https://www.tranktechnologies.com/desktop-application-development-company&quot;])[1]]
-Session ID: 960d94362ac450e5ffc88e8d341e68d5
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+Command: [c4de10ba0487be51e77aa3bb22c8d549, findElement {value=//div[normalize-space()=&apos;Development&apos;]&apos;], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\SONY\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59250}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59250/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c4de10ba0487be51e77aa3bb22c8d549
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
 	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
@@ -96,11 +97,13 @@ Session ID: 960d94362ac450e5ffc88e8d341e68d5
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-	at Verticals.Verticals_Test.CustomApp_Module1(Verticals_Test.java:153)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at Selenium.Trank_Technologies.verticalsAndPortfolioTest.portfolio(verticalsAndPortfolioTest.java:161)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
 	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
 	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
@@ -109,7 +112,7 @@ Session ID: 960d94362ac450e5ffc88e8d341e68d5
 	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
 	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
 	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 	at org.testng.TestRunner.privateRun(TestRunner.java:739)
 	at org.testng.TestRunner.run(TestRunner.java:614)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
@@ -125,19 +128,20 @@ Session ID: 960d94362ac450e5ffc88e8d341e68d5
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1313960293", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1313960293'><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable
-  (Session info: chrome=124.0.6367.208)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1288135425", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1288135425'><pre>org.openqa.selenium.InvalidSelectorException: invalid selector
+from javascript error: {&quot;status&quot;:32,&quot;value&quot;:&quot;Unable to locate an element with the xpath expression //div[normalize-space()=&apos;Development&apos;]&apos;] because of the following error:\nSyntaxError: Failed to execute &apos;evaluate&apos; on &apos;Document&apos;: The string &apos;//div[normalize-space()=&apos;Development&apos;]&apos;]&apos; is not a valid XPath expression.&quot;}
+  (Session info: chrome=126.0.6478.127)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
 Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.2&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.1.1&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [960d94362ac450e5ffc88e8d341e68d5, clickElement {id=f.B190C19E72E0123EE60773EF87901917.d.36280E21461D5C102679BBB03A621B77.e.104}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.208, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49478}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49478/devtoo..., se:cdpVersion: 124.0.6367.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (960d94362ac450e5ffc88e8d341e68d5)] -&gt; xpath: (//a[@href=&quot;https://www.tranktechnologies.com/desktop-application-development-company&quot;])[1]]
-Session ID: 960d94362ac450e5ffc88e8d341e68d5
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+Command: [c4de10ba0487be51e77aa3bb22c8d549, findElement {value=//div[normalize-space()=&apos;Development&apos;]&apos;], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\SONY\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59250}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59250/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c4de10ba0487be51e77aa3bb22c8d549
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
 	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
@@ -145,11 +149,13 @@ Session ID: 960d94362ac450e5ffc88e8d341e68d5
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-	at Verticals.Verticals_Test.CustomApp_Module1(Verticals_Test.java:153)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at Selenium.Trank_Technologies.verticalsAndPortfolioTest.portfolio(verticalsAndPortfolioTest.java:161)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
 	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
 	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
@@ -158,7 +164,7 @@ Session ID: 960d94362ac450e5ffc88e8d341e68d5
 	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
 	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
 	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 	at org.testng.TestRunner.privateRun(TestRunner.java:739)
 	at org.testng.TestRunner.run(TestRunner.java:614)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
@@ -175,8 +181,8 @@ Session ID: 960d94362ac450e5ffc88e8d341e68d5
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 </pre></div></td>
-<td>4</td>
-<td>Verticals.Verticals_Test@4bff64c2</td></tr>
+<td>5</td>
+<td>Selenium.Trank_Technologies.verticalsAndPortfolioTest@2dd29a59</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -187,45 +193,45 @@ Session ID: 960d94362ac450e5ffc88e8d341e68d5
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='Verticals.Verticals_Test.CustomApp_Module7()'><b>CustomApp_Module7</b><br>Test class: Verticals.Verticals_Test</td>
+<td title='Selenium.Trank_Technologies.verticalsAndPortfolioTest.tradingappdevelopment()'><b>tradingappdevelopment</b><br>Test class: Selenium.Trank_Technologies.verticalsAndPortfolioTest</td>
 <td></td>
-<td>1</td>
-<td>Verticals.Verticals_Test@4bff64c2</td></tr>
+<td>5</td>
+<td>Selenium.Trank_Technologies.verticalsAndPortfolioTest@2dd29a59</td></tr>
 <tr>
-<td title='Verticals.Verticals_Test.CustomApp_Module8()'><b>CustomApp_Module8</b><br>Test class: Verticals.Verticals_Test</td>
+<td title='Selenium.Trank_Technologies.verticalsAndPortfolioTest.algo_trading()'><b>algo_trading</b><br>Test class: Selenium.Trank_Technologies.verticalsAndPortfolioTest</td>
 <td></td>
-<td>3</td>
-<td>Verticals.Verticals_Test@4bff64c2</td></tr>
+<td>13</td>
+<td>Selenium.Trank_Technologies.verticalsAndPortfolioTest@2dd29a59</td></tr>
 <tr>
-<td title='Verticals.Verticals_Test.CustomApp()'><b>CustomApp</b><br>Test class: Verticals.Verticals_Test</td>
+<td title='Selenium.Trank_Technologies.verticalsAndPortfolioTest.custom_trading()'><b>custom_trading</b><br>Test class: Selenium.Trank_Technologies.verticalsAndPortfolioTest</td>
 <td></td>
-<td>2</td>
-<td>Verticals.Verticals_Test@4bff64c2</td></tr>
+<td>5</td>
+<td>Selenium.Trank_Technologies.verticalsAndPortfolioTest@2dd29a59</td></tr>
 <tr>
-<td title='Verticals.Verticals_Test.CustomApp_Module5()'><b>CustomApp_Module5</b><br>Test class: Verticals.Verticals_Test</td>
+<td title='Selenium.Trank_Technologies.verticalsAndPortfolioTest.cfd_trading()'><b>cfd_trading</b><br>Test class: Selenium.Trank_Technologies.verticalsAndPortfolioTest</td>
 <td></td>
-<td>3</td>
-<td>Verticals.Verticals_Test@4bff64c2</td></tr>
+<td>5</td>
+<td>Selenium.Trank_Technologies.verticalsAndPortfolioTest@2dd29a59</td></tr>
 <tr>
-<td title='Verticals.Verticals_Test.CustomApp_Module3()'><b>CustomApp_Module3</b><br>Test class: Verticals.Verticals_Test</td>
+<td title='Selenium.Trank_Technologies.verticalsAndPortfolioTest.verticals()'><b>verticals</b><br>Test class: Selenium.Trank_Technologies.verticalsAndPortfolioTest</td>
 <td></td>
-<td>1</td>
-<td>Verticals.Verticals_Test@4bff64c2</td></tr>
+<td>5</td>
+<td>Selenium.Trank_Technologies.verticalsAndPortfolioTest@2dd29a59</td></tr>
 <tr>
-<td title='Verticals.Verticals_Test.CustomApp_Module4()'><b>CustomApp_Module4</b><br>Test class: Verticals.Verticals_Test</td>
+<td title='Selenium.Trank_Technologies.verticalsAndPortfolioTest.webportal_trading()'><b>webportal_trading</b><br>Test class: Selenium.Trank_Technologies.verticalsAndPortfolioTest</td>
 <td></td>
-<td>2</td>
-<td>Verticals.Verticals_Test@4bff64c2</td></tr>
+<td>5</td>
+<td>Selenium.Trank_Technologies.verticalsAndPortfolioTest@2dd29a59</td></tr>
 <tr>
-<td title='Verticals.Verticals_Test.CustomApp_Module2()'><b>CustomApp_Module2</b><br>Test class: Verticals.Verticals_Test</td>
+<td title='Selenium.Trank_Technologies.verticalsAndPortfolioTest.stock_trading()'><b>stock_trading</b><br>Test class: Selenium.Trank_Technologies.verticalsAndPortfolioTest</td>
 <td></td>
-<td>2</td>
-<td>Verticals.Verticals_Test@4bff64c2</td></tr>
+<td>6</td>
+<td>Selenium.Trank_Technologies.verticalsAndPortfolioTest@2dd29a59</td></tr>
 <tr>
-<td title='Verticals.Verticals_Test.CustomApp_Module6()'><b>CustomApp_Module6</b><br>Test class: Verticals.Verticals_Test</td>
+<td title='Selenium.Trank_Technologies.verticalsAndPortfolioTest.paper_trading()'><b>paper_trading</b><br>Test class: Selenium.Trank_Technologies.verticalsAndPortfolioTest</td>
 <td></td>
-<td>1</td>
-<td>Verticals.Verticals_Test@4bff64c2</td></tr>
+<td>7</td>
+<td>Selenium.Trank_Technologies.verticalsAndPortfolioTest@2dd29a59</td></tr>
 </table><p>
 </body>
 </html>
