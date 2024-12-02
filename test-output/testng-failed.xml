@@ -3,13 +3,19 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Verticals.Verticals_Test">
+      <class name="Trank_Technologies.Technologies">
         <methods>
-          <include name="CustomApp_Module1"/>
+          <include name="kotlin"/>
+          <include name="ionic"/>
+          <include name="swift"/>
+          <include name="appointment_booking"/>
+          <include name="flutter"/>
           <include name="navigate"/>
-          <include name="close"/>
+          <include name="enterprise"/>
+          <include name="quit"/>
+          <include name="xamarin"/>
         </methods>
-      </class> <!-- Verticals.Verticals_Test -->
+      </class> <!-- Trank_Technologies.Technologies -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
