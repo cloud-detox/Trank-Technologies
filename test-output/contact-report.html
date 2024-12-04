@@ -9,56 +9,18 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">9</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">14,682</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Default test</a></td><td class="num">9</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">16,022</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">Trank_Technologies.Contact_us</td><td><a href="#m0">captcha</a></td><td rowspan="1">1733119021522</td><td rowspan="1">6</td></tr><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="9">Trank_Technologies.Contact_us</td><td><a href="#m1">about</a></td><td rowspan="1">1733119018927</td><td rowspan="1">1820</td></tr><tr class="passedeven"><td><a href="#m2">choose_service</a></td><td rowspan="1">1733119021030</td><td rowspan="1">100</td></tr><tr class="passedeven"><td><a href="#m3">company</a></td><td rowspan="1">1733119020963</td><td rowspan="1">65</td></tr><tr class="passedeven"><td><a href="#m4">consultation</a></td><td rowspan="1">1733119020752</td><td rowspan="1">99</td></tr><tr class="passedeven"><td><a href="#m5">email</a></td><td rowspan="1">1733119020853</td><td rowspan="1">109</td></tr><tr class="passedeven"><td><a href="#m6">message</a></td><td rowspan="1">1733119021437</td><td rowspan="1">83</td></tr><tr class="passedeven"><td><a href="#m7">phone</a></td><td rowspan="1">1733119021267</td><td rowspan="1">168</td></tr><tr class="passedeven"><td><a href="#m8">service</a></td><td rowspan="1">1733119021132</td><td rowspan="1">133</td></tr><tr class="passedeven"><td><a href="#m9">submit</a></td><td rowspan="1">1733119021531</td><td rowspan="1">1354</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="9">tranktech.tranktech_contact_us</td><td><a href="#m0">Your_Company</a></td><td rowspan="1">1733206687525</td><td rowspan="1">340</td></tr><tr class="passedeven"><td><a href="#m1">contact</a></td><td rowspan="1">1733206683579</td><td rowspan="1">2969</td></tr><tr class="passedeven"><td><a href="#m2">mail</a></td><td rowspan="1">1733206686999</td><td rowspan="1">516</td></tr><tr class="passedeven"><td><a href="#m3">message</a></td><td rowspan="1">1733206689309</td><td rowspan="1">374</td></tr><tr class="passedeven"><td><a href="#m4">name</a></td><td rowspan="1">1733206686564</td><td rowspan="1">422</td></tr><tr class="passedeven"><td><a href="#m5">select_ser</a></td><td rowspan="1">1733206687882</td><td rowspan="1">843</td></tr><tr class="passedeven"><td><a href="#m6">submit</a></td><td rowspan="1">1733206689687</td><td rowspan="1">2692</td></tr><tr class="passedeven"><td><a href="#m7">web_dev</a></td><td rowspan="1">1733206688732</td><td rowspan="1">148</td></tr><tr class="passedeven"><td><a href="#m8">your_phone</a></td><td rowspan="1">1733206688923</td><td rowspan="1">376</td></tr></tbody>
 </table>
-<h2>Default test</h2><h3 id="m0">Trank_Technologies.Contact_us#captcha</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.IllegalArgumentException: Argument is of an illegal type: org.openqa.selenium.chrome.ChromeDriver
-	at org.openqa.selenium.remote.WebElementToJsonConverter.apply(WebElementToJsonConverter.java:83)
-	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
-	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1024)
-	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
-	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
-	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
-	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
-	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:474)
-	at Trank_Technologies.Contact_us.captcha(Contact_us.java:75)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:739)
-	at org.testng.TestRunner.run(TestRunner.java:614)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">Trank_Technologies.Contact_us#about</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">Trank_Technologies.Contact_us#choose_service</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">Trank_Technologies.Contact_us#company</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">Trank_Technologies.Contact_us#consultation</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">Trank_Technologies.Contact_us#email</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m6">Trank_Technologies.Contact_us#message</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m7">Trank_Technologies.Contact_us#phone</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m8">Trank_Technologies.Contact_us#service</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m9">Trank_Technologies.Contact_us#submit</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Default test</h2><h3 id="m0">tranktech.tranktech_contact_us#Your_Company</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">tranktech.tranktech_contact_us#contact</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">tranktech.tranktech_contact_us#mail</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">tranktech.tranktech_contact_us#message</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">tranktech.tranktech_contact_us#name</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">tranktech.tranktech_contact_us#select_ser</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">tranktech.tranktech_contact_us#submit</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">tranktech.tranktech_contact_us#web_dev</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">tranktech.tranktech_contact_us#your_phone</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
